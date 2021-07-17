@@ -24,8 +24,10 @@ const successMessage = () => {
     let count = formCtrl.length - 1;
     for(var i=0; i<formCtrl.length; i++) {
         if(formCtrl[i].className === "form-field success") {
-            let sRate = 0+i;
+            let sRate = 0 + i;
             sendData(sRate , count)
+        } else {
+            return false;
         }
     }
 }
@@ -90,6 +92,8 @@ const validate = () => {
         setErrorMsg(cpassowrd, 'This information is required');
     } else if (passwordVal !== cpassowrdVal) {
         setErrorMsg(cpassowrd, 'Passwords are not matching');
+    } else if(cpassowrdVal.length < 8) {
+        setErrorMsg(cpassowrd, 'Confirm Password Length should not be less then 8');
     } else {
         setSuccessMsg(cpassowrd);
     }

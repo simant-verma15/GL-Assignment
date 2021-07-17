@@ -495,6 +495,9 @@ button#go {
 .regFormWrapper .form-field.error small {
   display: block;
 }
+.regFormWrapper .form-field.success input#lname {
+  border: solid 0.5px #cccccc;
+}
 
 @media (min-width: 1400px) {
   .container,
