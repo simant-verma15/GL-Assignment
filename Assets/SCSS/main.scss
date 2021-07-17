@@ -499,6 +499,10 @@ button#go {
   border: solid 0.5px #cccccc;
 }
 
+.loginWrapper {
+  min-height: calc(100vh - 56px);
+}
+
 @media (min-width: 1400px) {
   .container,
   .container-lg,
