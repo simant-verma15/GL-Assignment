@@ -5,6 +5,7 @@ const email = document.querySelector('#email');
 const phone = document.querySelector('#number');
 const password = document.querySelector('#password');
 const cpassowrd = document.querySelector('#cpassword');
+const cancleButton = document.querySelector('.cancle-btn');
 
 // Event Listeners
 form.addEventListener('submit' , (event) => {
@@ -112,3 +113,17 @@ function setSuccessMsg(input) {
     formControl.classList.add('success');
     formControl.classList.remove('error');
 }
+
+cancleButton.addEventListener('click' , function(){
+    let formCtrl = document.getElementsByClassName('form-field');
+    for(var i=0; i<formCtrl.length; i++) {
+        if(formCtrl[i].classList.contains('success')) {
+            formCtrl[i].classList.remove('success');
+        }
+        if(formCtrl[i].classList.contains('error')) {
+            formCtrl[i].classList.remove('error');
+        }
+    }
+    document.querySelector('#lname').parentElement.classList.add('success');
+    form.reset();
+});
