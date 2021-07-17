@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Assets/SCSS/main.css">
+    <title>eStore</title>
+</head>
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-6">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="/">
+                                <img src="./Assets/Images/logo.svg" alt="eStore">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMobileMenu" aria-controls="navMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="rgb(255 255 255)" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg>
+                                </span>
+                              </button>
+                            <div class="collapse navbar-collapse">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" data-bs-toggle="dropdown">
+                                            Categories <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown">
+                                                <a class="dropdown-item" href="#">Smart Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown">
+                                                        <a class="dropdown-item" href="/smart-wall-pad.html">Smart Wall Pad</a>
+                                                    </li>
+                                                    <li class="dropdown">
+                                                        <a class="dropdown-item" href="#">Door Camera</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-item" href="#">Smart Doorlock <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown"><a class="dropdown-item" href="#">Push-Pull</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Offers</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col d-flex justify-content-end mob-pd0">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse justify-content-end">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" data-bs-toggle="dropdown">
+                                            English <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Korean</a></li>
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item login">
+                                        <a class="nav-link" href="/login.html">
+                                            <img src="/Assets/Images/ic_avatar.svg" alt="Login / Register"> <span>Login / Register</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link cart" href="#">
+                                            <img src="/Assets/Images/ic_cart.svg" alt="Cart">
+                                            <span class="cartCount">0</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <nav class="navbar nav-mobile">
+                            <div class="navbar-collapse collapse" id="navMobileMenu">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" data-bs-toggle="dropdown">
+                                            Categories <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="dropdown"><a class="dropdown-item" href="#">Smart Home <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                            <li class="dropdown"><a class="dropdown-item" href="#">Smart Doorlock <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Offers</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" data-bs-toggle="dropdown">
+                                            English <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Korean</a></li>
+                                            <li><a class="dropdown-item" href="#">English</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item login">
+                                        <a class="nav-link" href="#">
+                                            <img src="/Assets/Images/ic_avatar.svg" alt="Login / Register"> <span>Login / Register</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link cart" href="#">
+                                            <img src="/Assets/Images/ic_cart.svg" alt="Cart">
+                                            <span class="cartCount">0</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="body-container-wrapper">
+            <div class="bannerSlider">
+                <div class="slick">
+                    <div class="slick-inner">
+                      <div class="slick-item" style='background-image: url(/Assets/Images/jpeg/banner_img@3x.jpg);'>
+                        <div class="caption">
+                          <h2>Easy & Fast! New Push-Pull Doorlock</h2>
+                          <p>The most advanced door opening technology with Push-Pull lever and fingerprint scanner</p>
+                        </div>
+                      </div>
+                      <div class="slick-item" style='background-image: url(/Assets/Images/jpeg/banner_img_3@3x.jpg);'>
+                        <div class="caption">
+                          <h2>All Harmful Substances Eliminated</h2>
+                          <p>We use door locks every day, and we touch the wall pads continually. All of our products are made safe by complying the strict standard of EU.</p>
+                        </div>
+                      </div>
+                      <div class="slick-item" style='background-image: url(/Assets/Images/jpeg/banner_img_2@3x.jpg);'>
+                        <div class="caption">
+                          <h2>Exciting Deals & Offers On Your Way</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis turpis pharetra pretium nec eu sem consectetur.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="main-content pb-5">
+                <div class="container">
+                    <!-- Smart Wall Pad -->
+                    <div class="smartwallpad pt-5">
+                        <div class="row mb-2">
+                            <div class="col-sm-6 col">
+                                <div class="title">
+                                    <h3>Smart Wall Pad</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 d-flex justify-content-end align-items-center">
+                                <a class="view-all" href="/smart-wall-pad.html">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="row product-items justify-content-center">
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img.jpg" alt="SHT-3625 Basic 4”">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-3625 Basic 4” wall pad suitable for small-to-medium-scale new…</h5>
+                                        <div class="pricing">
+                                            <strong>$159.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_2.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-7017 Full touch-type wall pad suitable for new large-scale…</h5>
+                                        <div class="pricing">
+                                            <strong>$199.99 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_3.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-3006 Basic 6” wall pad suitable for villas and general houses.</h5>
+                                        <div class="pricing">
+                                            <strong>$239.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_4.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-3605 Basic 4.3” wall pad suitable for small-to-medium-sc…</h5>
+                                        <div class="pricing">
+                                            <strong>$300.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_5.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-3602 Basic 4” wall pad suitable for small-to-medium-scale new…</h5>
+                                        <div class="pricing">
+                                            <strong>$300.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Door Camera -->
+                    <div class="doorcamera pt-5">
+                        <div class="row mb-2">
+                            <div class="col-sm-6 col">
+                                <div class="title">
+                                    <h3>Door Camera</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 d-flex justify-content-end align-items-center">
+                                <a class="view-all" href="#">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="row product-items justify-content-center">
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_6.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-CN512 Lens angle adjustable door camera</h5>
+                                        <div class="pricing">
+                                            <strong>$536.00</strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_7.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-CN810 Door camera with sophisticated touch screen</h5>
+                                        <div class="pricing">
+                                            <strong>$536.00</strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_8.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>WW81J44E0BW Front Loading with Hygiene Steam 8.0kg</h5>
+                                        <div class="pricing">
+                                            <strong>$536.00</strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_9.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-CN610 Basic type door camera with a sophisticated metallic des…</h5>
+                                        <div class="pricing">
+                                            <strong>$536.00</strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_10.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHT-CN640 Door camera which is up to four homes linked with one…</h5>
+                                        <div class="pricing">
+                                            <strong>$536.00</strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Push Pull -->
+                    <div class="push-pull pt-5">
+                        <div class="row mb-2">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="title">
+                                    <h3>Push-Pull</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 d-flex justify-content-end align-items-center">
+                                <a class="view-all" href="#">View All  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <div class="row product-items justify-content-center">
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_11.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHP-DP609 Easy & Fast! New Push-Pull Doorlock</h5>
+                                        <div class="pricing">
+                                            <strong>$450.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_12.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHP-DR708 IoT Smart Doorlock</h5>
+                                        <div class="pricing">
+                                            <strong>$239.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_13.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHP-DP738 Premium bluetooth Push-Pull Doorlock</h5>
+                                        <div class="pricing">
+                                            <strong>$300.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_14.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHP-DP728 Fingerprint recognition and smartphone app service</h5>
+                                        <div class="pricing">
+                                            <strong>$300.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="product-card">
+                                    <div class="product-image">
+                                        <img src="./Assets/Images/jpeg/product-img_15.jpg" alt="">
+                                    </div>
+                                    <div class="product-info">
+                                        <h5>SHP-DP727 A premium model featuring smartphone app servic…</h5>
+                                        <div class="pricing">
+                                            <strong>$450.00 </strong>
+                                            <button type="button" class="btn">Add to Cart</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="top-footer">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="footer-nav">
+                                <h5>User Info</h5>
+                                <ul class="no-list">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">My Order</a></li>
+                                    <li><a href="#">My Cart</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 d-flex justify-content-end">
+                            <div class="footer-nav">
+                                <h5>Write to us</h5>
+                                <ul class="no-list">
+                                    <li>
+                                        <a href="mailto:customercare@samsung.com">customercare@samsung.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>Copyright 2020 SAMSUNG SDS. All rights reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="./Assets/Js/main.js"></script>
+</body>
+</html>

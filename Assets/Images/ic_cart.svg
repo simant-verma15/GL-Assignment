@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_cart" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-2,.cls-3{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1.5px}.cls-2{stroke-linecap:round}.cls-3{stroke-linejoin:round}
+        </style>
+    </defs>
+    <path id="Rectangle_12132" fill="none" d="M0 0H32V32H0z" opacity="0.32"/>
+    <g id="Group_17092" transform="translate(5 5)">
+        <path id="Path_707" d="M1852.485 3111.742a2.142 2.142 0 1 1-2.142-2.142 2.128 2.128 0 0 1 2.142 2.142z" class="cls-2" transform="translate(-1843.504 -3092.296)"/>
+        <path id="Path_708" d="M1865.985 3111.742a2.142 2.142 0 1 1-2.142-2.142 2.128 2.128 0 0 1 2.142 2.142z" class="cls-2" transform="translate(-1845.88 -3092.296)"/>
+        <path id="Path_709" d="M1863.532 3106.761h-14.5a1.69 1.69 0 0 1-1.73-1.73 1.689 1.689 0 0 1 1.73-1.73" class="cls-3" transform="translate(-1843.345 -3091.188)"/>
+        <path id="Path_710" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5px" d="M1847.242 3092.2h17.958s-1.813 7.168-2.142 7.91a2.15 2.15 0 0 1-1.648 1.236h-12.607l-2.307-9.146z" transform="translate(-1843.204 -3089.234)"/>
+        <g id="Group_257">
+            <path id="Path_711" d="M1848.1 3100.794l-3.048-11.783a.62.62 0 0 0-.577-.412h-1.975" class="cls-3" transform="translate(-1842.5 -3088.6)"/>
+        </g>
+    </g>
+</svg>

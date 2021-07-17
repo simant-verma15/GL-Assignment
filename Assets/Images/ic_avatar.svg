@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_avatar" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-3{fill:none;stroke:#2949b3;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <path id="box" fill="none" d="M0 0H32V32H0z"/>
+    <circle id="circle" cx="15" cy="15" r="15" fill="#fff" transform="translate(1 1)"/>
+    <g id="Group_17091" transform="translate(10 10)">
+        <path id="Path_601" d="M1853.107 2077.813a2.607 2.607 0 1 0-2.607-2.607 2.624 2.624 0 0 0 2.607 2.607z" class="cls-3" transform="translate(-1847.303 -2072.6)"/>
+        <path id="Path_602" d="M1854.722 2088.069a7.405 7.405 0 0 0-9.836 0 2.428 2.428 0 0 0-.885 2.017v.983a.441.441 0 0 0 .443.443h10.672a.441.441 0 0 0 .443-.443v-.983a2.312 2.312 0 0 0-.837-2.017z" class="cls-3" transform="translate(-1844 -2079.511)"/>
+    </g>
+</svg>

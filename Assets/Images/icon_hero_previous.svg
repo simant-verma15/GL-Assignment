@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+    <defs>
+        <filter id="rypm86m1ya" width="52" height="52" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="1"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g opacity="0.3">
+        <g filter="url(#rypm86m1ya)" transform="translate(3 2) translate(-3 -2)">
+            <g fill="#fff" stroke="#dbdbdb" transform="translate(3 2)">
+                <rect width="46" height="46" stroke="none" rx="23"/>
+                <rect width="45" height="45" x=".5" y=".5" fill="none" rx="22.5"/>
+            </g>
+        </g>
+        <path fill="none" stroke="#333" stroke-linecap="round" stroke-width="0.8px" d="M15703.949 657l-11 11 11 11" transform="translate(3 2) translate(-15675.448 -644.5)"/>
+    </g>
+</svg>
