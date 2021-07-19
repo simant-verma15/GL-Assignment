@@ -92,4 +92,10 @@
 
 }
 
+$('.child-trigger').click(function() {
+    $(this).next('.dropdown-menu').slideToggle(250);
+    $(this).toggleClass('child-open');
+    return false;
+  });
+
 })();
